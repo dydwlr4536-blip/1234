@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>홍길동 ♥ 김영희 결혼합니다</title>
+  <meta name="description" content="2027년 5월 15일 토요일 오후 2시, 웨딩메르디앙 3층 그랜드홀">
+  <meta property="og:title" content="홍길동 ♥ 김영희 결혼합니다">
+  <meta property="og:description" content="2027년 5월 15일 토요일 오후 2시, 웨딩메르디앙 3층 그랜드홀">
+  <meta property="og:image" content="image/05.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="page">
+
+    <!-- 1. 메인 -->
+    <section class="hero" id="hero">
+      <img class="hero__img" src="image/05.png" alt="턱시도와 웨딩드레스를 입고 손을 잡고 선 신랑 신부">
+      <div class="hero__text">
+        <p class="en">WE ARE GETTING MARRIED</p>
+        <h1>홍길동 <span class="amp">&amp;</span> 김영희</h1>
+        <p class="hero__date en">2027. 05. 15 SAT PM 2:00</p>
+        <p class="hero__place">웨딩메르디앙 3층 그랜드홀</p>
+      </div>
+    </section>
+
+    <!-- 2. 인사말과 신랑·신부 소개 -->
+    <section class="section" id="greeting">
+      <p class="en label reveal">INVITATION</p>
+      <h2 class="reveal">소중한 분들을 초대합니다</h2>
+      <!-- [ 인사말 문구 (초안 작성 후 확인) ] -->
+      <p class="greeting reveal">
+        서로 다른 길을 걸어온 두 사람이<br>
+        이제 같은 길을 함께 걸어가려 합니다.<br><br>
+        저희의 첫걸음을 축복해 주시면<br>
+        더없는 기쁨으로 간직하겠습니다.<br><br>
+        바쁘시더라도 오셔서<br>
+        두 사람의 새로운 시작을 함께해 주세요.
+      </p>
+      <div class="couple reveal">
+        <figure>
+          <img src="image/01.png" alt="턱시도를 입은 신랑 홍길동" loading="lazy">
+          <figcaption><span class="en">GROOM</span>신랑 홍길동</figcaption>
+        </figure>
+        <figure>
+          <img src="image/02.png" alt="웨딩드레스를 입은 신부 김영희" loading="lazy">
+          <figcaption><span class="en">BRIDE</span>신부 김영희</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. 예식 일시·D-day -->
+    <section class="section section--mint" id="date">
+      <p class="en label reveal">WEDDING DAY</p>
+      <img class="date__img reveal" src="image/04.png" alt="서로 기대어 웃고 있는 신랑 신부" loading="lazy">
+      <p class="date__main en reveal">2027. 05. 15</p>
+      <p class="date__sub reveal">토요일 오후 2시</p>
+      <p class="date__sub reveal">웨딩메르디앙 3층 그랜드홀</p>
+      <div class="dday reveal" id="dday" aria-live="polite">
+        <div><b class="en" id="dd-d">--</b><span>DAYS</span></div>
+        <div><b class="en" id="dd-h">--</b><span>HOURS</span></div>
+        <div><b class="en" id="dd-m">--</b><span>MIN</span></div>
+        <div><b class="en" id="dd-s">--</b><span>SEC</span></div>
+      </div>
+      <p class="dday__text reveal" id="dday-text"></p>
+    </section>
+
+    <!-- 4. 갤러리 -->
+    <section class="section" id="gallery">
+      <p class="en label reveal">GALLERY</p>
+      <h2 class="reveal">우리의 순간</h2>
+      <div class="grid reveal" id="grid">
+        <button class="grid__item" data-i="0" aria-label="사진 1 크게 보기"><img src="image/01.png" alt="신랑 홍길동" loading="lazy"></button>
+        <button class="grid__item" data-i="1" aria-label="사진 2 크게 보기"><img src="image/02.png" alt="신부 김영희" loading="lazy"></button>
+        <button class="grid__item" data-i="2" aria-label="사진 3 크게 보기"><img src="image/03.png" alt="손을 잡고 선 두 사람" loading="lazy"></button>
+        <button class="grid__item" data-i="3" aria-label="사진 4 크게 보기"><img src="image/04.png" alt="두 사람의 얼굴 클로즈업" loading="lazy"></button>
+        <button class="grid__item" data-i="5" aria-label="사진 6 크게 보기"><img src="image/06.png" alt="손을 잡고 걸으며 서로 바라보는 두 사람" loading="lazy"></button>
+        <button class="grid__item" data-i="4" aria-label="사진 5 크게 보기"><img src="image/05.png" alt="베이지 벽 앞에 선 두 사람" loading="lazy"></button>
+        <button class="grid__item grid__item--wide" data-i="6" aria-label="사진 7 크게 보기"><img src="image/07.png" alt="반지를 낀 두 사람의 손" loading="lazy"></button>
+      </div>
+    </section>
+
+    <!-- 5. 위치 안내 -->
+    <section class="section section--mint" id="location">
+      <p class="en label reveal">LOCATION</p>
+      <h2 class="reveal">오시는 길</h2>
+      <div class="card reveal">
+        <p class="card__title">웨딩메르디앙 3층 그랜드홀</p>
+        <p class="card__text" id="address">대구광역시 북구 중앙대로 581</p>
+        <div class="map">
+          <iframe id="map-frame" title="웨딩메르디앙 약도 (구글 지도)" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%81%EA%B5%AC%20%EC%A4%91%EC%95%99%EB%8C%80%EB%A1%9C%20581&z=16&hl=ko&output=embed"></iframe>
+        </div>
+        <div class="btns">
+          <a class="btn" id="btn-naver" href="#" target="_blank" rel="noopener">네이버지도</a>
+          <a class="btn" id="btn-kakao" href="#" target="_blank" rel="noopener">카카오맵</a>
+        </div>
+      </div>
+      <!-- [ 지하철·버스·자가용(주차) 내용 ] -->
+      <div class="card reveal">
+        <dl class="transport">
+          <dt>지하철</dt><dd>[ 지하철 안내 내용 ]</dd>
+          <dt>버스</dt><dd>[ 버스 안내 내용 ]</dd>
+          <dt>자가용·주차</dt><dd>[ 자가용·주차 안내 내용 ]</dd>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 6. 계좌번호 -->
+    <section class="section" id="account">
+      <p class="en label reveal">ACCOUNT</p>
+      <h2 class="reveal">마음 전하실 곳</h2>
+      <p class="account__intro reveal">참석이 어려우신 분들을 위해<br>계좌번호를 안내드립니다.<br>따뜻한 마음에 깊이 감사드립니다.</p>
+
+      <details class="acc reveal">
+        <summary>신랑측 계좌번호</summary>
+        <div class="acc__row">
+          <!-- [ 은행명 000-0000-000000 / 예금주 홍길동 (임시) ] -->
+          <p>[ 은행명 000-0000-000000 ]<br><span>예금주 홍길동 (임시)</span></p>
+          <button class="copy" data-copy="[ 은행명 000-0000-000000 ]">복사</button>
+        </div>
+      </details>
+
+      <details class="acc reveal">
+        <summary>신부측 계좌번호</summary>
+        <div class="acc__row">
+          <!-- [ 은행명 000-0000-000000 / 예금주 김영희 (임시) ] -->
+          <p>[ 은행명 000-0000-000000 ]<br><span>예금주 김영희 (임시)</span></p>
+          <button class="copy" data-copy="[ 은행명 000-0000-000000 ]">복사</button>
+        </div>
+      </details>
+    </section>
+
+    <!-- 7. 마무리 -->
+    <section class="closing" id="closing">
+      <img class="closing__img reveal" src="image/03.png" alt="손을 잡고 나란히 선 신랑 신부" loading="lazy">
+      <div class="closing__text reveal">
+        <!-- [ 감사 인사 문구 ] -->
+        <p>함께해 주셔서 감사합니다.<br>행복하게 잘 살겠습니다.</p>
+        <p class="en closing__names">HONG GIL-DONG &amp; KIM YOUNG-HEE</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 배경음악 -->
+  <audio id="bgm" src="music/bgm.mp3" loop preload="none"></audio>
+  <button class="music" id="music" aria-label="배경음악 재생" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path class="icon-play" d="M9 7v10l8-5z" fill="currentColor"/>
+      <g class="icon-pause" fill="currentColor"><rect x="8" y="7" width="3" height="10"/><rect x="13" y="7" width="3" height="10"/></g>
+    </svg>
+  </button>
+
+  <!-- 사진 크게 보기 -->
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="사진 크게 보기">
+    <button class="lb__close" id="lb-close" aria-label="닫기">&times;</button>
+    <button class="lb__nav lb__prev" id="lb-prev" aria-label="이전 사진">&#8249;</button>
+    <img id="lb-img" alt="">
+    <button class="lb__nav lb__next" id="lb-next" aria-label="다음 사진">&#8250;</button>
+    <p class="lb__count en" id="lb-count"></p>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
